@@ -8,13 +8,13 @@ tools_dir="$HOME/tools"
 
 ask_to_install (){
 	while true; do
-			echo "";
-		  read -p "Do you wish to install $1?" yn
-		  case $yn in
-		      [Yy]* ) echo "installing $1..."; $2; echo "done!";  echo ""; break;;
-		      [Nn]* ) echo "$1 skipped!"; echo ""; break;;
-		      * ) echo "Please answer yes or no.";;
-		  esac
+    echo "";
+    read -p "Do you wish to install $1?" yn
+    case $yn in
+      [Yy]* ) echo "installing $1..."; $2; echo "done!";  echo ""; break;;
+      [Nn]* ) echo "$1 skipped!"; echo ""; break;;
+      * ) echo "Please answer yes or no.";;
+    esac
 	done
 }
 
