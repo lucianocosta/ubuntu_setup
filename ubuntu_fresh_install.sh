@@ -111,20 +111,14 @@ install_rvm () {
   sudo update-alternatives --install /usr/bin/gem gem /usr/bin/gem1.8 1
   echo "install: --no-ri --no-rdoc" >> ~/.gemrc
   echo "update: --no-ri --no-rdoc" >> ~/.gemrc
-  #bash < <(curl -B http://rvm.beginrescueend.com/install/rvm)
-  #echo '[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"' >> ~/.bashrc
-  #echo '[[ -r $rvm_path/scripts/completion ]] && . $rvm_path/scripts/completion' >> ~/.bashrc
-  #source ~/.rvm/scripts/rvm
-  #echo "Verifying RVM installation..."
-  #rvm -v
-  #rvm install 1.8.7
-  #rvm install 1.9.2
-  #rvm --default 1.9.2
   echo "# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #"
   echo "#                                                                               #"
-  echo "#   NOTE: RVM install could be a little tricky... =/                            #"
+  echo "#   NOTE: RVM install could be a little tricky, it's better if you continue     #"
+  echo "#         by hand from here on.                                                 #"
   echo "#                                                                               #"
-  echo "#   if the last command have failed, please follow instructions in this page:   #"
+  echo "#   You're almost done, with ruby and rubygems installed.                       #"
+  echo "#                                                                               #"
+  echo "#   Please follow instructions in this page:                                    #"
   echo "#      http://rvm.beginrescueend.com/rvm/install/                               #"
   echo "#                                                                               #"
   echo "# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #"
